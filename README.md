@@ -1,81 +1,79 @@
-# TPL-I: Turkish Penal Law – Insult Dataset
+# TPL-I: Turkish Penal Law–Insult Dataset
 
 ## Overview
 
-TPL-I (Turkish Penal Law – Insult) is a dataset of **7,361 Turkish-language
-Instagram comments** annotated for **legally defined insult detection**.
-Unlike general offensive-language or toxicity datasets, the labels follow
-the legal criteria of **Articles 125–131 of the Turkish Penal Code (TPL)**.
-Not every rude or offensive comment constitutes a legally sanctionable
-insult; TPL-I was built specifically to capture this legal distinction.
+TPL-I (Turkish Penal Law–Insult) contains **7,361 Turkish-language Instagram
+comments** annotated for legally defined insult detection. Unlike general
+offensive-language or toxicity datasets, its labels follow the legal criteria
+in Articles 125–131 of the Turkish Penal Code (TPC). TPL-I was developed to
+distinguish legally relevant insults from rude, offensive, or critical
+expressions that do not necessarily meet the applicable legal threshold.
 
 ## Dataset Details
 
 | Property | Value |
 |---|---|
 | Language | Turkish |
-| Source | Instagram comments sent to the accounts of a popular women's program broadcast on weekdays in Turkey |
+| Source | Instagram comments posted to the accounts of a popular women’s television program broadcast on weekdays in Türkiye |
 | Collection period | 2024 |
 | Total instances | 7,361 |
 | Class 1 (legally defined insult) | 3,652 |
 | Class 0 (non-insult) | 3,709 |
 | Annotation | Manual labeling by domain-expert annotators |
-| Inter-annotator agreement | Cohen's kappa = 0.940 |
+| Inter-annotator agreement | Cohen’s kappa = 0.940 |
 
 ## Labeling Criteria
 
-A comment is labeled **1 (insult)** if, according to TPL Articles 125–131,
-it may constitute a criminal insult — for example, a direct attack on the
-honor, dignity, or reputation of a specific or identifiable person,
-including animal-name comparisons recognized as insults by the Court of
-Cassation. A comment is labeled **0 (non-insult)** if it does not exceed
-the legal threshold, such as curses, imprecations, harsh institutional or
-political criticism, untargeted emotional outbursts, or rude remarks that
-do not target a person's dignity.
+A comment is labeled **1 (insult)** if it may constitute a legally defined
+insult under Articles 125–131 of the Turkish Penal Code, such as a direct
+attack on the honor, dignity, or reputation of a specific or identifiable
+person.
 
-## How to Obtain the Dataset
+A comment is labeled **0 (non-insult)** if it does not meet the relevant legal
+threshold, such as an imprecation, harsh institutional or political criticism,
+an untargeted emotional outburst, or a rude expression that does not directly
+attack an identifiable person’s dignity.
 
-The dataset file is **not distributed through this repository**. To obtain
-TPL-I, please send an access request by e-mail to:
+## Reviewer-Only Controlled Access
 
-**habibekarayigit@aof.anadolu.edu.tr**
+An encrypted copy of the TPL-I dataset is hosted in this repository solely to
+facilitate confidential journal peer review. The file may be visible and
+downloadable, but its contents cannot be opened without a password.
 
-Please use the subject line: **"TPL-I Dataset Access Request"**
+The password is provided only to authorized journal editors and reviewers.
+Therefore, this repository does not provide public access to the readable
+contents of the dataset.
 
-Your request should include:
-
-1. Your full name
-2. Your institution and department
-3. Your institutional e-mail address
-4. A short description of your research purpose and intended use of the dataset
-
-The dataset is shared **only for non-commercial academic research
-purposes**. Requests are typically answered within a few working days.
+To the best of the authors’ knowledge, TPL-I has been used only in the original
+dataset study and the present work.
 
 ## Citation
 
-If you use this dataset, please cite the original publication:
+Please cite the following publication when referring to TPL-I:
 
 > Karayiğit H. Leveraging attention-based deep learning models for detecting
 > insult offenses on social media in the context of Turkish Penal Law.
-> *Neural Computing and Applications*, 38(1), 2026.
+> *Neural Computing and Applications*. 2026;38(1):6.
 > https://doi.org/10.1007/s00521-025-11807-0
 
 ## Terms of Use
 
-By receiving the dataset, you agree **not** to:
+Access to the readable dataset is restricted to authorized journal editors and
+reviewers during the confidential peer-review process. The dataset must not be:
 
-- redistribute, resell, or publicly re-publish the dataset;
-- attempt to identify, contact, or profile the original comment authors;
-- use the dataset for any commercial or non-academic purpose.
+- redistributed, resold, or publicly republished;
+- used outside the authorized peer-review process without permission;
+- used to identify, contact, or profile the original comment authors;
+- used for commercial or non-academic purposes.
 
-The dataset compilation, structure, and annotations are provided by the
-author for academic use. The underlying comments were written by
-third-party social-media users; no rights in the comment texts themselves
-are transferred.
+The dataset compilation, structure, and annotations were prepared for academic
+research. The underlying comments were written by third-party social-media
+users; no rights in the original comment texts are transferred.
 
 ## Contact
 
-Habibe Karayiğit
-General Directorate of Secondary Education, Ministry of National Education, Adana, Türkiye
-**habibekarayigit@aof.anadolu.edu.tr**
+**Habibe Karayiğit**  
+General Directorate of Secondary Education  
+Ministry of National Education  
+Adana, Türkiye  
+habibekarayigit@aof.anadolu.edu.tr
